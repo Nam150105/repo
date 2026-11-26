@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.0.5"
+          "text": "1.0.6"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.6",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Sửa lỗi `connect(): Operation not permitted` sau khi đổi proxy: cấu hình Wi-Fi chỉ đổi 1 lần, các lần đổi IP sau chỉ đổi proxy bên trong tweak (không làm gián đoạn mạng).\n- Đổi IP sẽ ngắt kết nối cũ để app dùng IP mới ngay.\n- Chờ mạng ổn định trước khi kiểm tra IP."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.0.5",
