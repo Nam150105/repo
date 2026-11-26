@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.0.1"
+          "text": "1.0.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Proxy có user/pass** (`host:port:user:pass`) hoạt động: dùng bộ chuyển tiếp cục bộ 127.0.0.1:8687.\n- `setIp` kiểm tra proxy trước khi đặt — proxy chết/sai mật khẩu sẽ không làm mất mạng.\n- Thêm hàm `testProxy()`.\n- Tweak bị tắt thì tự xoá proxy cục bộ."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.0.1",
