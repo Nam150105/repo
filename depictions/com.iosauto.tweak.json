@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.0.4"
+          "text": "1.0.5"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.5",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Sửa lỗi proxy trung gian không kết nối được khi nhiều app dùng mạng cùng lúc (nâng giới hạn socket của SpringBoard).\n- Tự thử lại khi proxy dân cư trả 502 / từ chối kết nối.\n- Log ghi rõ mã lỗi hệ thống."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.0.4",
