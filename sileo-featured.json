@@ -1,0 +1,8 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{263, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    { "url": "https://nam150105.github.io/repo/assets/banner.png", "title": "iOSAuto", "package": "com.iosauto.tweak", "hideShadow": false }
+  ]
+}

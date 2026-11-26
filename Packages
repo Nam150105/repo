@@ -1,0 +1,40 @@
+Package: com.iosauto.tweak
+Name: iOSAuto
+Description: Điều khiển iPhone bằng script Lua + Web IDE/Remote qua trình duyệt (USB hoặc IP:port). Miễn phí, không giới hạn thời gian.
+Maintainer: iOSAuto
+Author: iOSAuto
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 1028
+Icon: https://nam150105.github.io/repo/assets/icon.png
+Depiction: https://nam150105.github.io/repo/depictions/com.iosauto.tweak.html
+SileoDepiction: https://nam150105.github.io/repo/depictions/com.iosauto.tweak.json
+Homepage: https://nam150105.github.io/repo/
+Filename: ./debs/com.iosauto.tweak_1.0.0_iphoneos-arm.deb
+Size: 185576
+MD5sum: ba2c3c7cd68a17acda65fc92d85b336c
+SHA1: c17e9efaac6465cfc2d734b7b342dd9c107f5091
+SHA256: fb0858b76b25aad0d480b9b522c2da8b5d8b4bc9012c8e5ee5bfc6ccc96d6c39
+
+Package: com.iosauto.tweak
+Name: iOSAuto
+Description: Điều khiển iPhone bằng script Lua + Web IDE/Remote qua trình duyệt (USB hoặc IP:port). Miễn phí, không giới hạn thời gian.
+Maintainer: iOSAuto
+Author: iOSAuto
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 1028
+Icon: https://nam150105.github.io/repo/assets/icon.png
+Depiction: https://nam150105.github.io/repo/depictions/com.iosauto.tweak.html
+SileoDepiction: https://nam150105.github.io/repo/depictions/com.iosauto.tweak.json
+Homepage: https://nam150105.github.io/repo/
+Filename: ./debs/com.iosauto.tweak_1.0.0_iphoneos-arm64.deb
+Size: 185358
+MD5sum: 55325ad5cc8e7edd390d00adcf84dafb
+SHA1: ff235e5855f7733c26fe70ca57763d1a61f840c1
+SHA256: 20292148dc36cab8e295c9369568e1d1d5adba7fa44a1dd6449b70740fe58d9b
+

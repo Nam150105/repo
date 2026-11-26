@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iOSAuto Repo</title>
+<link rel="apple-touch-icon" href="CydiaIcon.png">
+<link rel="icon" href="CydiaIcon.png">
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --text:#e6edf3; --muted:#8b949e; --accent:#6d5dfc; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:radial-gradient(circle at 30% 0%, #312e81, var(--bg) 60%); color:var(--text);
+    font:16px/1.5 -apple-system, "Segoe UI", system-ui, sans-serif; display:flex; justify-content:center; padding:40px 16px; }
+  main { width:100%; max-width:520px; text-align:center; }
+  img.icon { width:110px; height:110px; border-radius:24px; box-shadow:0 10px 40px #6d5dfc66; }
+  h1 { margin:18px 0 4px; font-size:30px; }
+  p.sub { color:var(--muted); margin:0 0 28px; }
+  .btn { display:block; padding:14px; border-radius:12px; margin:10px 0; font-weight:600; text-decoration:none; color:#fff; }
+  .sileo { background:linear-gradient(90deg,#6d5dfc,#3b82f6); }
+  .zebra { background:#1f2937; }
+  .cydia { background:#2d1f0f; color:#fbbf24; }
+  .card { background:var(--card); border:1px solid #30363d; border-radius:12px; padding:14px; margin-top:24px; text-align:left; }
+  .url { display:flex; gap:8px; align-items:center; }
+  .url code { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; background:#0d1117; padding:8px 10px; border-radius:8px; }
+  .url button { border:0; background:var(--accent); color:#fff; padding:8px 12px; border-radius:8px; cursor:pointer; font:inherit; }
+  .pkg { display:flex; gap:12px; align-items:center; }
+  .pkg img { width:52px; height:52px; border-radius:12px; }
+  .pkg small { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="CydiaIcon.png" alt="">
+  <h1>iOSAuto Repo</h1>
+  <p class="sub">Tweak tự động hoá iPhone bằng Lua + Web IDE</p>
+
+  <a class="btn sileo" href="sileo://source/https://nam150105.github.io/repo/">Thêm vào Sileo</a>
+  <a class="btn zebra" href="zbra://sources/add/https://nam150105.github.io/repo/">Thêm vào Zebra</a>
+  <a class="btn cydia" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://nam150105.github.io/repo/">Thêm vào Cydia</a>
+
+  <div class="card">
+    <div style="color:var(--muted);font-size:13px;margin-bottom:6px">Hoặc thêm thủ công:</div>
+    <div class="url"><code id="u">https://nam150105.github.io/repo/</code><button onclick="navigator.clipboard.writeText(document.getElementById('u').textContent);this.textContent='Đã copy'">Copy</button></div>
+  </div>
+
+  <div class="card">
+    <a href="depictions/com.iosauto.tweak.html" style="color:inherit;text-decoration:none" class="pkg">
+      <img src="assets/icon.png" alt="">
+      <div><b>iOSAuto</b> <small>1.0.0</small><br><small>Lua automation, Remote, Web IDE · Miễn phí</small></div>
+    </a>
+  </div>
+</main>
+</body>
+</html>

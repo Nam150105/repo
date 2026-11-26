@@ -1,0 +1,49 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://nam150105.github.io/repo/assets/banner.png",
+  "tintColor": "#6d5dfc",
+  "tabs": [
+    {
+      "tabname": "Chi tiết",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "**iOSAuto** — tự động hoá iPhone bằng script **Lua**, viết và chạy ngay trên trình duyệt máy tính.\n\n- Web IDE: editor tô màu, Run/Stop, console trực tiếp\n- Remote: xem màn hình live, click = tap, kéo = swipe\n- Kết nối qua **Wi-Fi** (`http://IP-iPhone:8686`) hoặc **USB** (`iproxy 8686 8686`)\n- Hoàn toàn **miễn phí**, không key, không hết hạn"
+        },
+        { "class": "DepictionSeparatorView" },
+        { "class": "DepictionHeaderView", "title": "Hàm chính" },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "- Chạm: `tap`, `swipe`, `longPress`, `touchDown/Move/Up`, `pressHome`, `keyPress`\n- Nhập: `inputText`, `clearText`, `pressEnter`\n- Proxy: `setIp`, `clearIp`, `getIp`\n- Màu/ảnh: `getColor`, `findColor`, `findColors`, `findImage`, `tapImage`\n- OCR: `ocr`, `findText`, `tapText`, `waitForText`\n- App: `appRun`, `appKill`, `frontApp`, `openURL`\n- Mạng/file: `httpGet`, `httpPost`, `readFile`, `writeFile`, `readLines`"
+        },
+        { "class": "DepictionSeparatorView" },
+        { "class": "DepictionHeaderView", "title": "Sau khi cài" },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "1. Respring, rồi **chạm màn hình 1 lần**.\n2. Trên máy tính mở `http://<IP iPhone>:8686`.\n3. Nên đặt mật khẩu trong `/var/mobile/Library/iOSAuto/config.json` → `\"token\"`."
+        },
+        { "class": "DepictionSeparatorView" },
+        { "class": "DepictionTableTextView", "title": "Phiên bản", "text": "1.0.0" },
+        { "class": "DepictionTableTextView", "title": "Hỗ trợ", "text": "iOS 14 – 16" },
+        { "class": "DepictionTableTextView", "title": "Jailbreak", "text": "Rootless & Rootful" },
+        { "class": "DepictionTableTextView", "title": "Giá", "text": "Miễn phí" }
+      ]
+    },
+    {
+      "tabname": "Thay đổi",
+      "class": "DepictionStackView",
+      "views": [
+        { "class": "DepictionSubheaderView", "title": "1.0.0", "useBoldText": true },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Phát hành đầu tiên: Lua engine, Web IDE, Remote, proxy, OCR, tìm màu/ảnh."
+        }
+      ]
+    }
+  ]
+}

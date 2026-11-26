@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iOSAuto</title>
+<style>
+  :root { --bg:#f2f2f7; --card:#fff; --text:#111; --muted:#6b7280; --accent:#6d5dfc; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#000; --card:#1c1c1e; --text:#f2f2f7; --muted:#9ca3af; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.5 -apple-system, system-ui, sans-serif; }
+  img.banner { width:100%; display:block; }
+  .card { background:var(--card); margin:12px; padding:14px 16px; border-radius:12px; }
+  h2 { font-size:13px; text-transform:uppercase; color:var(--muted); margin:0 0 8px; letter-spacing:.4px; }
+  ul, ol { margin:0; padding-left:20px; }
+  code { background:#6d5dfc22; color:var(--accent); padding:1px 5px; border-radius:5px; font-size:13px; }
+  table { width:100%; border-collapse:collapse; }
+  td { padding:6px 0; border-bottom:1px solid #8883; } td:last-child { text-align:right; color:var(--muted); }
+</style>
+</head>
+<body>
+<img class="banner" src="https://nam150105.github.io/repo/assets/banner.png" alt="iOSAuto">
+<div class="card">
+  <h2>Mô tả</h2>
+  Tự động hoá iPhone bằng script <b>Lua</b>, viết và chạy ngay trên trình duyệt máy tính qua Wi-Fi hoặc USB.
+  Miễn phí, không key, không hết hạn.
+</div>
+<div class="card">
+  <h2>Hàm chính</h2>
+  <ul>
+    <li><code>tap</code> <code>swipe</code> <code>longPress</code> <code>pressHome</code></li>
+    <li><code>inputText</code> <code>clearText</code></li>
+    <li><code>setIp</code> <code>clearIp</code> <code>getIp</code></li>
+    <li><code>findColor</code> <code>findImage</code> <code>ocr</code> <code>tapText</code></li>
+    <li><code>appRun</code> <code>appKill</code> <code>httpGet</code> <code>readFile</code></li>
+  </ul>
+</div>
+<div class="card">
+  <h2>Sau khi cài</h2>
+  <ol>
+    <li>Respring, chạm màn hình 1 lần.</li>
+    <li>Mở <code>http://&lt;IP iPhone&gt;:8686</code> trên máy tính.</li>
+  </ol>
+</div>
+<div class="card">
+  <table>
+    <tr><td>Phiên bản</td><td>1.0.0</td></tr>
+    <tr><td>Hỗ trợ</td><td>iOS 14 – 16</td></tr>
+    <tr><td>Jailbreak</td><td>Rootless &amp; Rootful</td></tr>
+  </table>
+</div>
+</body>
+</html>
