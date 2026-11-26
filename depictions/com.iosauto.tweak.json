@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.0.7"
+          "text": "1.1.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.0",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Viết lại phần đổi IP**: proxy trung gian (gắn user/pass) chạy trong **daemon root riêng** `iosautod` (launchd), không còn nằm trong SpringBoard — sửa lỗi *No Internet Connection* / `Operation not permitted`.\n- Cấu hình Wi-Fi chỉ ghi khi thực sự thay đổi, chỉ sửa các khoá proxy.\n- `setIp()` kiểm tra proxy → đặt → xác minh IP thật, trả về `ok, msg, ip`.\n- Log của daemon hiện trong console Web IDE."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.0.7",
