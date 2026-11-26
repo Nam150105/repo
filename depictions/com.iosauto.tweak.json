@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.0.6"
+          "text": "1.0.7"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.7",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Sửa lỗi \"No Internet Connection\" / `Operation not permitted` sau khi đổi proxy: địa chỉ kiểm tra mạng của Apple đi thẳng, không qua proxy.\n- Tắt/bật lại Wi-Fi sau khi đặt hoặc xoá proxy để iOS kiểm tra lại mạng.\n- Thêm hàm `restartWiFi()`."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.0.6",
