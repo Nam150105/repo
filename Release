@@ -7,10 +7,10 @@ Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: Tweak tự động hoá iPhone bằng Lua + Web IDE. Miễn phí.
 MD5Sum:
- 57600ac0632d5fbe2daf4a30793ed5af 3472 Packages
- d6f3960ab2fddaa428b436f718dd964d 902 Packages.gz
- 79a373ab6c802e79e0da6f23091e5b94 912 Packages.xz
+ 15dccb9df3134a58f0ac733bc6970aee 5208 Packages
+ 9044f3cbd603378d2c163c9a554161e3 1114 Packages.gz
+ 4fb01be0579866f82005890c210a728d 1088 Packages.xz
 SHA256:
- aabeba6d373f439b0a04b019737604a6c8889ce049e3aa10b91f19c07bcf71f7 3472 Packages
- b6fb3aa98e6aae5efa3b50aea91409b4c7997cab5395743ba4f0bfcad9758ae3 902 Packages.gz
- e9968445ff4cbedeb96d1dfc0c19cf1cbb77c6351a7bde54c1622fa6d44ac36f 912 Packages.xz
+ 1fa67cd6d90472c3df8803280deba795edcd1afbb9843d3cf6b895ec215751fd 5208 Packages
+ 0cbdf4ddaba9be89cb1acd7a901d72c8520ff947b24ab5946ebe048bbba82020 1114 Packages.gz
+ 015313900fc41cdfd2d894a2e8f1d8ad2aa1fb3e1582820cdb66ba5b1a1b805a 1088 Packages.xz
