@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.0.3"
+          "text": "1.0.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.4",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Sửa lỗi mất mạng sau khi changeIP với proxy có user/pass (bộ chuyển tiếp bị quay vòng chiếm CPU và đầy kết nối).\n- Timeout 10s khi proxy không phản hồi.\n- Báo lỗi rõ ràng (407 sai user/pass, proxy chết…) trong console; thêm `proxyStatus()`.\n- `changeIP.lua` tự gỡ proxy nếu đặt xong mà không ra mạng."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.0.3",
