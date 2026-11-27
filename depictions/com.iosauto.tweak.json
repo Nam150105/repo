@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.4.6"
+          "text": "1.4.7"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.7",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Đồng bộ thiết bị cho Instagram & App Store apps**: Lưu cấu hình trực tiếp vào `/Library/Preferences/` để các app bị Sandbox (Instagram, Facebook) có quyền đọc trực tiếp cấu hình thiết bị mới.\n- **Đổi chuẩn Model trong Instagram**: Kích hoạt hook `uname` và `sysctlbyname` (hw.machine) cho Instagram để nhận diện chính xác iPhone 13 Pro Max (hoặc dòng máy đã chọn) trong thông báo đăng nhập."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.4.6",
