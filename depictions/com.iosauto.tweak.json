@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.4.8"
+          "text": "1.4.9"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.9",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Triệt để chống crash Instagram/Facebook**: Loại bỏ 100% các inline hook C-level (sysctlbyname, uname, MGCopyAnswer) trên các app của Meta để không kích hoạt hệ thống anti-tamper watchdog của Meta.\n- **Đổi thiết bị chuẩn xác cho Instagram qua Objective-C Logos**: Hook trực tiếp FBSystemInfo và IGDeviceInformation — Meta nhận diện chính xác iPhone 13 Pro Max (hoặc model tùy chọn) mà không có bất kỳ rủi ro crash nào.\n- **Không chặn mạng trong Sandbox**: Bỏ kết nối LoopbackGET BSD socket trong constructor; chuyển sang đọc cấu hình qua CFPreferences XPC IPC của cfprefsd an toàn tuyệt đối.\n- **Tự động phục hồi Keychain permissions**: Cập nhật lại quyền sở hữu _securityd (UID 64) cho /var/Keychains để bảo vệ cơ sở dữ liệu Keychain sau khi wipe."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.4.8",
