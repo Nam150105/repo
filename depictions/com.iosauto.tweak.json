@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.4.5"
+          "text": "1.4.6"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.6",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Khắc phục triệt để văng Instagram (kể cả sau khi resetDevice)**: Bỏ qua các inline hook C-level (sysctlbyname, uname, MGCopyAnswer) trên các app Meta để không kích hoạt cơ chế quét mã anti-tamper; Giữ nguyên phiên bản hệ điều hành thực tế cho Instagram để tránh lỗi thiếu API.\n- **Đổi thiết bị an toàn tuyệt đối**: Đổi IDFV, IDFA, DeviceName, Model thông qua Objective-C swizzling mượt mà 100% không bị phát hiện."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.4.5",
