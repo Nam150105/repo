@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.4.7"
+          "text": "1.4.8"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.8",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Xoá sạch tài khoản & Keychain (wipeApp)**: Xoá triệt để thông tin đăng nhập trong iOS Keychain (/var/Keychains/keychain-2.db) qua SQLite root helper, xoá toàn bộ WebKit cookies và cache của app — đăng xuất hoàn toàn 100% tài khoản Instagram/Facebook.\n- **Sửa triệt để crash Instagram**: Trả về phiên bản thật cho driver đồ hoạ Metal A9 và giữ runtime iOS 15 an toàn cho app bên thứ 3 (tránh crash gọi nhầm API iOS 18); uname(&uts) nhận diện chuẩn xác dòng máy mới khi đăng nhập.\n- **Làm rõ đổi MAC/IP**: Việc đổi địa chỉ MAC ảo chỉ hiển thị và báo cáo cho app/Cài đặt, không tác động lên kết nối Wi-Fi vật lý hay changeIp."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.4.7",
