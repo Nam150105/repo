@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.4.9"
+          "text": "1.4.10"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.10",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Phá vỡ rào cản Sandbox**: Ghi cấu hình thiết bị trực tiếp vào container Sandbox của từng ứng dụng, thư mục /var/tmp/ và /Library/Preferences/ — đảm bảo 100% ứng dụng App Store (Instagram, TikTok, game...) đọc được cấu hình giả lập.\n- **Đổi chuẩn Model mọi nền tảng**: Kích hoạt hook uname(&uts) và MGCopyAnswer toàn diện cho mọi ứng dụng kết hợp swizzle FBSystemInfo runtime cho Meta; bảo vệ riêng biệt driver đồ hoạ Metal A9 không bao giờ crash.\n- **Nhận diện thiết bị mới tuyệt đối**: Instagram và mọi nền tảng ghi nhận chuẩn xác iPhone 13 Pro Max (hoặc model tùy chọn) trong lịch sử đăng nhập."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.4.9",
