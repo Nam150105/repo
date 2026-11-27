@@ -533,10 +533,10 @@ Depiction: https://nam150105.github.io/repo/depictions/com.iosauto.tweak.html
 SileoDepiction: https://nam150105.github.io/repo/depictions/com.iosauto.tweak.json
 Homepage: https://nam150105.github.io/repo/
 Filename: ./debs/com.iosauto.tweak_1.4.3_iphoneos-arm.deb
-Size: 241430
-MD5sum: 6c210bdf7a80e81629bee329d042d7b4
-SHA1: 581f479027fff09bff5e0d5650a73536b296cf02
-SHA256: b051592e38af71b935618d52c0d893eea0d7e0d34286b18c9ad0505e315cfc43
+Size: 241048
+MD5sum: d1a1e3f301cb1eb4ea644571da93f2c5
+SHA1: 2b689f83957284b37c71c4c32059fc967694980d
+SHA256: 0c6e3ffc90d0ec7ee8d089edaea51059f427ef1d2148e9202bad6cd9045368e9
 
 Package: com.iosauto.tweak
 Name: iOSAuto
@@ -547,14 +547,14 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
 Architecture: iphoneos-arm64
 Version: 1.4.4
-Installed-Size: 1460
+Installed-Size: 1428
 Icon: https://nam150105.github.io/repo/assets/icon.png
 Depiction: https://nam150105.github.io/repo/depictions/com.iosauto.tweak.html
 SileoDepiction: https://nam150105.github.io/repo/depictions/com.iosauto.tweak.json
 Homepage: https://nam150105.github.io/repo/
 Filename: ./debs/com.iosauto.tweak_1.4.4_iphoneos-arm64.deb
-Size: 246920
-MD5sum: a04a80f9a00e25153fcb20b139ed1700
-SHA1: ce2b62ea2a6cddbadbc5e0d7d66fe9123215fd99
-SHA256: 4837672bfc6df2d69f945c233eca0b48b6aafbf1326623f668f6a8fb8ab8bacb
+Size: 241358
+MD5sum: 159592c7d195da8ceca7ca465d1d9a3a
+SHA1: 014a572cd1434893316e332b1c6ba6f943607af9
+SHA256: 52df08f9638373600df2876c50ab34286a54d582666422f31dcd82cb943f7938
 
