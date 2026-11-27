@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "1.4.1"
+          "text": "1.4.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -66,6 +66,15 @@
       "tabname": "Thay đổi",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Đổi triệt để toàn bộ thông số**: IMEI, MEID, Wi-Fi MAC, Bluetooth MAC, Serial, Network (khắc phục hoàn toàn lỗi Not Available của Network & Carrier).\n- **Bổ sung đủ dòng từ iPhone 7 đến iPhone 17 Pro Max** (37+ dòng máy) kèm iOS tự khớp chính xác theo đời máy.\n- **Fake sâu hơn**: Baseband (Modem Firmware), ChipID, ECID, ICCID, IMSI, Region Code, Regulatory Model."
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.4.1",
